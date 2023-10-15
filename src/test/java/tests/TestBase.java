@@ -9,7 +9,8 @@ public class TestBase implements AppleManager {
     @BeforeSuite
     public void setup() {
 
-        initial();
+//        initial();
+        initialAddOptions();
     }
 
     @AfterSuite
